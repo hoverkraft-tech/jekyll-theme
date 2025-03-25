@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+</head>
+<body>
+    <header>
+        {% include header.html %}
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        {% include footer.html %}
+    </footer>
+</body>
+</html>

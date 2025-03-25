@@ -1,0 +1,72 @@
+/* Component Styles */
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background-color: $primary-color;
+  border: none;
+  border-radius: 0.25em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  margin: 1em 0;
+
+  .card-header {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+
+  .card-body {
+    font-size: 1em;
+    color: $text-color;
+  }
+
+  .card-footer {
+    font-size: 0.875em;
+    color: $secondary-color;
+    text-align: right;
+  }
+}
+
+.alert {
+  padding: 1em;
+  border-radius: 0.25em;
+  margin: 1em 0;
+  font-size: 1em;
+
+  &.alert-success {
+    background-color: $secondary-color;
+    color: #fff;
+  }
+
+  &.alert-error {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+
+  &.alert-warning {
+    background-color: #f39c12;
+    color: #fff;
+  }
+
+  &.alert-info {
+    background-color: $primary-color;
+    color: #fff;
+  }
+}
