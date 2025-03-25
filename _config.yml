@@ -1,3 +1,4 @@
-theme: hoverkraft
+theme: jekyll-theme-cayman
 title: Hoverkraft Jekyll Theme
 description: A Jekyll theme based on hoverkraft [branding](https://github.com/hoverkraft-tech/branding) guidelines 
+branding: hoverkraft

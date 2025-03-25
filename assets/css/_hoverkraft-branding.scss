@@ -1,0 +1,63 @@
+/* Hoverkraft Tech Branding Styles */
+
+/* Colors */
+$primary-color: #1a1a1a;
+$secondary-color: #f2f2f2;
+$accent-color: #ff6600;
+
+/* Typography */
+$font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+/* Buttons */
+.btn {
+  background-color: $primary-color;
+  color: $secondary-color;
+  border: 1px solid $primary-color;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $accent-color;
+  }
+}
+
+/* Links */
+a {
+  color: $primary-color;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+/* Header */
+header {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 20px 0;
+  text-align: center;
+
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 20px 0;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}
